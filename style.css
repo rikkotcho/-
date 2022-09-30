@@ -1,0 +1,39 @@
+
+h1{
+  font-size:60px;
+  text-align:center;
+  margin:0;
+  padding:30px;
+  border-bottom:1px solid gray;
+  }
+h2{
+  font-size:15px;
+  text-align:center;
+  margin:30px;
+  padding:15px;
+  }
+ol{
+  font-size:30px;
+  text-align: center;
+  width:120px;
+  margin:0px;
+  padding:60px;
+  border-bottom: 1px solid gray;
+  }
+body{
+  font-family: Avenir, sans-serif;
+  margin:2rem auto;
+  width:95%;
+  }
+  #grid ol{
+    display: grid;
+    grid-template-columns: 150px 150px 200px 1fr;
+    justify-content: center;
+    margin:auto;
+  }
+    
+  @media(max-width:800px){
+    #grid ol{
+    display: block;
+    }
+  }
